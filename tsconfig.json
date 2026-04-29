@@ -17,10 +17,9 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "src/*"
-      ]
+      "@/*": ["src/*"]
     },
+    "moduleResolution": "Bundler",
     "allowImportingTsExtensions": true,
     "noEmit": true
   }
