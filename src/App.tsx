@@ -30,14 +30,14 @@ import {
   ArrowLeft,
   UserPlus
 } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Checkbox } from '@/components/ui/checkbox';
-import { Progress } from '@/components/ui/progress';
-import { Badge } from '@/components/ui/badge';
-import { INITIAL_ROUTINES, UNIVERSITY_RANKING, MOCK_FRIENDS, MOCK_FEED, MOCK_MESSAGES, Routine } from './constants';
-import { cn } from '@/lib/utils';
+import { Button } from '@/components/ui/button.tsx';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card.tsx';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs.tsx';
+import { Checkbox } from '@/components/ui/checkbox.tsx';
+import { Progress } from '@/components/ui/progress.tsx';
+import { Badge } from '@/components/ui/badge.tsx';
+import { INITIAL_ROUTINES, UNIVERSITY_RANKING, MOCK_FRIENDS, MOCK_FEED, MOCK_MESSAGES, Routine } from './constants.ts';
+import { cn } from '@/lib/utils.ts';
 import productImg from './assets/images/cosrx_eye_patch_1777446510546.png';
 
 type View = 'home' | 'routine' | 'community' | 'profile';
